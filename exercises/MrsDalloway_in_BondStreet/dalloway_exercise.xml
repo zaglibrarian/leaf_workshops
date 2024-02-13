@@ -363,6 +363,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/zaglibrarian/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?title_annotation_20240213135246786",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-13T21:52:46.786Z",
+	"dcterms:modified": "2024-02-13T21:52:46.786Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/zaglibrarian",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Caitlin"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/zaglibrarian/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?title_annotation_20240213135246786#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/zaglibrarian/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/zaglibrarian/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?title_annotation_20240213135246786#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/3520159477916427990000/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
 
          <projectDesc>
@@ -378,7 +458,7 @@
          <div>
             <pb n="20" facs="https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_images/dalloway_01.jpg"/>
 
-            <head>MRS DALLOWAY IN BOND STREET</head>
+            <head><title key="Woolf, Virginia, 1882-1941. | Mrs. Dalloway in Bond Street." ref="http://viaf.org/viaf/3520159477916427990000/" cert="high" level="m">MRS DALLOWAY IN BOND STREET</title></head>
             <byline><persName key="Virginia Woolf" ref="http://www.wikidata.org/entity/Q40909" cert="high" role="aut" type="real"/>BY VIRGINIA WOOLF</byline>
 
 
