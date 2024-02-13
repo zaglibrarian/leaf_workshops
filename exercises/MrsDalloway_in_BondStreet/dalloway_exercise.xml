@@ -64,7 +64,7 @@
 
 
             <p>Mrs Dalloway said she would buy the gloves herself.</p>
-            <p>Big Ben was striking as she stepped out into the street. It was eleven o'clock and
+            <p><rs key="Big Ben" ref="http://www.wikidata.org/entity/Q37733713" cert="high">Big Ben</rs> was striking as she stepped out into the street. It was eleven o'clock and
                the unused hour was fresh as if issued to children on a beach. But there was
                something solemn in the deliberate swing of the repeated strokes; something stirring
                in the murmur of wheels and the shuffle of footsteps.</p>
